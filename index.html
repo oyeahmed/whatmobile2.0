@@ -1,88 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Whatmobile</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class=".container">
-        <header>
-            <div class="logo">
-                <img src="./images/logo.jpg" alt="Whatmobile" title="Whatmobile">
-                <input type="text" placeholder="search" class="search">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand">WHATMOBILE</a>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Mobile Phones</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Reviews</a></li>
-                    <li><a href="">Outlets</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
+          </nav>
+          <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Much longer nav link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+      </div>
 
-        <section class="images">
-            <div>
-                <img src="./images/y51s.jpg" alt="oppo y51s" title="oppo y51s">
+      <div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/y51s.jpg" class="d-block w-100" alt="...">
             </div>
-        </section>
-
-        <section class="coming-soon">
-            <h1>Coming Soon</h1>
-            <div>
-                <p>Oppo f19</p>
-                <p>Oppo f19 Pro</p>
-                <p>Oppo f19 Pro Plus</p>
-                <p>Samsung Galaxy A52</p>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/OppoF19Pro.jpg" class="d-block w-100" alt="...">
             </div>
-        </section>
-
-        <hr />
-
-        <section class="brands">
-            <h1>Brands</h1>
-            <div>
-                <p>Samsung</p>
-                <p>Apple</p>
-                <p>Huawei</p>
-                <p>Nokia</p>
-                <p>Oppo</p>
-                <p>Xiaomi</p>
-                <p>Infinix</p>
-                <p>More</p>
-            </div>    
-        </section>
-
-        <hr />
-
-        <section class="contact-us">
-            <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos ipsam, officiis, quae incidunt nesciunt, enim debitis optio harum cupiditate quam aliquam deleniti modi? Quae tenetur quisquam consectetur eligendi deserunt!</p>
-        </section>
-
-        <hr />
-
-        <section class="disclaimer">
-            <h1>Disclaimer</h1>
-            <div>
-                <p>Mobile Phone Prices / price list is updated daily from local Mobile shops & Mobile dealers in Pakistan but we can't guarantee that mobile prices / price list on this page is 100% correct 
-                    (Human error is possible). Always visit your local shop for exact mobile prices. 
-                    What Mobile Pakistan - Nokia mobile prices / LG mobile prices / Samsung mobile prices / Sony Ericsson mobile prices / HTC mobile prices - What Mobile Prices in Pakistan
-                </p>
+            <div class="carousel-item">
+              <img src="./images/SamsungGalaxyA52.jpg" class="d-block w-100" alt="...">
             </div>
-        </section>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
-        <footer>
-            <div class="footer">
-                <p> Copyright © 2021 www.whatmobile.com.pk. What Mobile Pakistan All Rights Reserved.</p>
-                <p>Designed by Ahmed Shabbir</p>
-            </div>
-        </footer>
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/OppoF19.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/OppoF19Pro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/SamsungGalaxyA52.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/OppoF19.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/OppoF19Pro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/SamsungGalaxyA52.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/SamsungGalaxyA52.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>DISCLAIMER</h1>
+        <p>
+          Disclaimer. Mobile Phone Prices / price list is updated daily from local Mobile shops 
+          & Mobile dealers in Pakistan but we can't guarantee that mobile prices / price list on this page is 100% correct (Human error is possible). 
+          Always visit your local shop for exact mobile prices. What Mobile Pakistan - Nokia mobile prices / LG mobile prices / Samsung mobile prices / 
+          Sony Ericsson mobile prices / HTC mobile prices - What Mobile Prices in Pakistan
+        </p>
+      </div>
+
+      <div class="feedback">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="footer">
+
+      </div>
     </div>
-</body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

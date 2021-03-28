@@ -1,0 +1,30 @@
+.navbar-brand,h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.705);
+}
+.carousel-control-prev {
+    background: transparent;
+    border: none;
+}
+.carousel-control-next {
+    background: transparent;
+    border: none;
+}
+h1 {
+
+}
+.card {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+}
+
+.card-group {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 40%;
+}

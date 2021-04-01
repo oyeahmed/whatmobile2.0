@@ -27,10 +27,20 @@
     width: 40%;
 }
 
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
-    padding-left: 250px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .footer {
@@ -39,4 +49,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }

@@ -12,9 +12,7 @@
     background: transparent;
     border: none;
 }
-h1 {
 
-}
 .card {
     align-items: center;
     border: none;
@@ -27,4 +25,18 @@ h1 {
 
 .card-img-top {
     width: 40%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 255, 0.712);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
